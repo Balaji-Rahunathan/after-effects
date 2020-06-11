@@ -1,12 +1,12 @@
 body {
   font-family: "Nunito", sans-serif;
   /* color: #5a5959; */
-  color:#3C3F53
+  color: #3c3f53;
 }
 
 a {
   /* color: #49b5e7; */
-  color:rgb(0,0,0,25%)
+  color: rgb(0, 0, 0, 25%);
 }
 
 a:hover {
@@ -40,9 +40,10 @@ h6 {
 
 .iner_main {
   box-sizing: border-box;
+  min-height: calc(100vh - 100px);
 }
 .tabs-wrap {
-  margin-top: 40px;
+  margin-top: 5%;
 }
 .tab-content .tab-pane {
   padding: 20px 0;
@@ -77,7 +78,7 @@ h6 {
 }
 
 .tab_subhead {
-  line-height: 1;
+  line-height: 1.2;
   color: #464646;
   font-size: 24px;
   text-align: center;
@@ -106,7 +107,6 @@ h6 {
 .nav-link {
   border-bottom: 2px #000;
 }
-
 
 .na_1 {
   border-bottom: 4px solid #34a853;
@@ -205,6 +205,15 @@ h6 {
   #homepage {
     padding: 0px 0px 0px 0px !important;
   }
+
+  .card-body {
+    padding: 1rem;
+  }
+}
+
+.tab-content .tab-pane {
+  padding-top: 20px;
+  padding-bottom: 0px !important;
 }
 
 /*********header starts here************/
@@ -217,33 +226,35 @@ h6 {
   padding: 0.5rem 2rem !important;
   color: rgba(0, 0, 0, 0.6) !important;
 }
-.navbar-nav .nav-link:hover{
-  color:#41bdfb !important
+.navbar-nav .nav-link:hover {
+  color: #41bdfb !important;
 }
 /*********header ends here************/
 
 /*********homepage starts here************/
 #homepage {
+  overflow: hidden;
   background-image: url("../img/home1.svg");
-  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
   background-size: cover;
-  padding: 100px 0px 120px 0px;
-  height: 100vh;
+  position: relative;
   width: 100%;
+  height: 100vh;
 }
 #home-img {
   width: 100%;
   height: auto;
   max-width: 500px;
 }
-.homepage-container h1{
-  color:#24285F;
+.homepage-container h1 {
+  color: #24285f;
   line-height: 1;
 }
-.homepage-container p{
+.homepage-container p {
   line-height: 1.6;
-  color:#3C3F53
+  color: #3c3f53;
 }
 
 /*********homepage ends here************/
@@ -279,8 +290,8 @@ h6 {
   display: flex;
   justify-content: center;
 }
-#effect-text1{
-  line-height:1.6
+#effect-text1 {
+  line-height: 1.6;
 }
 /*********after-effects ends here************/
 /************phone view starts here************/
