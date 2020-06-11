@@ -27,7 +27,6 @@ h6 {
   overflow: auto;
   background: url(../img/bg.svg);
 
-  background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   position: relative;
