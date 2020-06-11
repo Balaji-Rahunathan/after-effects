@@ -181,9 +181,6 @@ h6 {
   .tab_vis {
     display: none;
   }
-  .main_bg {
-    overflow: hidden;
-  }
 }
 
 .tab_btn button {
