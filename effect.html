@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css"
+    />
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="main_bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card border-left-primary shadow py-2 mt-4 mb-4">
+              <div class="iner_main">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row justify-content-md-center">
+                      <div class="col-md-8">
+                        <h1 class="tab_head">
+                          jQuery Tab Carousel Plugin Example
+                        </h1>
+                        <div class="tab_vis">
+                          <ul
+                            class="nav nav-tabs nav-fill mt-4"
+                            id="myTab"
+                            role="tablist"
+                          >
+                            <li class="nav-item na_1">
+                              <a
+                                class="nav-link active"
+                                id="low-tab"
+                                data-toggle="tab"
+                                href="#low"
+                                role="tab"
+                                aria-controls="low"
+                                aria-selected="true"
+                                >Low</a
+                              >
+                            </li>
+                            <li class="nav-item na_2">
+                              <a
+                                class="nav-link"
+                                id="medium-tab"
+                                data-toggle="tab"
+                                href="#medium"
+                                role="tab"
+                                aria-controls="medium"
+                                aria-selected="false"
+                                >Medium</a
+                              >
+                            </li>
+                            <li class="nav-item na_3">
+                              <a
+                                class="nav-link"
+                                id="high-tab"
+                                data-toggle="tab"
+                                href="#high"
+                                role="tab"
+                                aria-controls="high"
+                                aria-selected="false"
+                                >High</a
+                              >
+                            </li>
+
+                            <li class="nav-item na_4">
+                              <a
+                                class="nav-link"
+                                id="veryhigh-tab"
+                                data-toggle="tab"
+                                href="#veryhigh"
+                                role="tab"
+                                aria-controls="veryhigh"
+                                aria-selected="false"
+                                >Very High</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                          <div
+                            class="tab-pane fade show active"
+                            id="low"
+                            role="tabpanel"
+                            aria-labelledby="low-tab"
+                          >
+                            <div>
+                              <div class="divs">
+                                <div class="cls1">
+                                  <h2 class="tab_subhead mt-4">
+                                    Blood in Urine 1
+                                  </h2>
+                                  <img
+                                    src="assets/img/Blood In Urine.svg"
+                                    class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                    alt="..."
+                                  />
+                                  <p class="tab_par mt-4 mb-2">
+                                    Almost All patiendies
+                                  </p>
+
+                                  <section class="my-auto tab_btn mt-4">
+                                    <button class="btn btn btn-success prev">
+                                      Prev
+                                    </button>
+                                    <button class="btn btn-primary next">
+                                      Next
+                                    </button>
+                                  </section>
+                                </div>
+
+                                <div class="cls2">
+                                  <h2 class="tab_subhead mt-4">
+                                    Blood in Urine 2
+                                  </h2>
+                                  <img
+                                    src="assets/img/Blood In Urine.svg"
+                                    class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                    alt="..."
+                                  />
+                                  <p class="tab_par mt-4 mb-2">
+                                    Almost All patiendies
+                                  </p>
+                                  <section class="my-auto tab_btn mt-4">
+                                    <button class="btn btn btn-success prev">
+                                      Prev
+                                    </button>
+                                    <button class="btn btn-primary next">
+                                      Next
+                                    </button>
+                                  </section>
+                                </div>
+
+                                <div class="cls3">
+                                  <h2 class="tab_subhead mt-4">
+                                    Blood in Urine 3
+                                  </h2>
+                                  <img
+                                    src="assets/img/Blood In Urine.svg"
+                                    class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                    alt="..."
+                                  />
+                                  <p class="tab_par mt-4 mb-2">
+                                    Almost All patiendies
+                                  </p>
+                                  <section class="my-auto tab_btn mt-4">
+                                    <button class="btn btn btn-success prev">
+                                      Prev
+                                    </button>
+                                    <button class="btn btn-primary nexttab">
+                                      Next
+                                    </button>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            class="tab-pane fade"
+                            id="medium"
+                            role="tabpanel"
+                            aria-labelledby="medium-tab"
+                          >
+                            <div>
+                              <h2 class="tab_subhead mt-4">Blood in Urine 4</h2>
+                              <img
+                                src="assets/img/Blood In Urine.svg"
+                                class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                alt="..."
+                              />
+                              <p class="tab_par mt-4 mb-2">
+                                Almost All patiendies
+                              </p>
+
+                              <div class="my-auto tab_btn mt-4">
+                                <button class="prevtab btn btn btn-success">
+                                  Prev
+                                </button>
+                                <button class="nexttab btn btn-primary">
+                                  Next
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            class="tab-pane fade"
+                            id="high"
+                            role="tabpanel"
+                            aria-labelledby="high-tab"
+                          >
+                            <div>
+                              <div class="divss">
+                                <div class="cls1">
+                                  <h2 class="tab_subhead mt-4">
+                                    Blood in Urine 5
+                                  </h2>
+                                  <img
+                                    src="assets/img/Blood In Urine.svg"
+                                    class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                    alt="..."
+                                  />
+                                  <p class="tab_par mt-4 mb-2">
+                                    Almost All patiendies
+                                  </p>
+
+                                  <section class="my-auto tab_btn mt-4">
+                                    <button class="btn btn btn-success prevtab">
+                                      Prev
+                                    </button>
+                                    <button class="btn btn-primary next">
+                                      Next
+                                    </button>
+                                  </section>
+                                </div>
+
+                                <div class="cls2">
+                                  <h2 class="tab_subhead mt-4">
+                                    Blood in Urine 6
+                                  </h2>
+                                  <img
+                                    src="assets/img/Blood In Urine.svg"
+                                    class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                    alt="..."
+                                  />
+                                  <p class="tab_par mt-4 mb-2">
+                                    Almost All patiendies
+                                  </p>
+                                  <section class="my-auto tab_btn mt-4">
+                                    <button class="btn btn btn-success prev">
+                                      Prev
+                                    </button>
+                                    <button class="btn btn-primary next">
+                                      Next
+                                    </button>
+                                  </section>
+                                </div>
+
+                                <div class="cls3">
+                                  <h2 class="tab_subhead mt-4">
+                                    Blood in Urine 7
+                                  </h2>
+                                  <img
+                                    src="assets/img/Blood In Urine.svg"
+                                    class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                    alt="..."
+                                  />
+                                  <p class="tab_par mt-4 mb-2">
+                                    Almost All patiendies
+                                  </p>
+                                  <section class="my-auto tab_btn mt-4">
+                                    <button class="btn btn btn-success prev">
+                                      Prev
+                                    </button>
+                                    <button class="btn btn-primary next">
+                                      Next
+                                    </button>
+                                  </section>
+                                </div>
+
+                                <div class="cls4">
+                                  <h2 class="tab_subhead mt-4">
+                                    Blood in Urine 8
+                                  </h2>
+                                  <img
+                                    src="assets/img/Blood In Urine.svg"
+                                    class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                    alt="..."
+                                  />
+                                  <p class="tab_par mt-4 mb-2">
+                                    Almost All patiendies
+                                  </p>
+                                  <section class="my-auto tab_btn mt-4">
+                                    <button class="btn btn btn-success prev">
+                                      Prev
+                                    </button>
+                                    <button class="btn btn-primary next">
+                                      Next
+                                    </button>
+                                  </section>
+                                </div>
+
+                                <div class="cls5">
+                                  <h2 class="tab_subhead mt-4">
+                                    Blood in Urine 9
+                                  </h2>
+                                  <img
+                                    src="assets/img/Blood In Urine.svg"
+                                    class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                    alt="..."
+                                  />
+                                  <p class="tab_par mt-4 mb-2">
+                                    Almost All patiendies
+                                  </p>
+                                  <section class="my-auto tab_btn mt-4">
+                                    <button class="btn btn btn-success prev">
+                                      Prev
+                                    </button>
+                                    <button class="btn btn-primary nexttab">
+                                      Next
+                                    </button>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            class="tab-pane fade"
+                            id="veryhigh"
+                            role="tabpanel"
+                            aria-labelledby="veryhigh-tab"
+                          >
+                            <div>
+                              <h2 class="tab_subhead mt-4">
+                                Blood in Urine 10
+                              </h2>
+                              <img
+                                src="assets/img/Blood In Urine.svg"
+                                class="img-fluid mx-auto mt-4 mb-4 d-block tab_img"
+                                alt="..."
+                              />
+                              <p class="tab_par mt-4 mb-2">
+                                Almost All patiendies
+                              </p>
+
+                              <div class="my-auto tab_btn mt-4">
+                                <button class="prevtab btn btn btn-success">
+                                  Prev
+                                </button>
+                                <button class="nexttab btn btn-primary">
+                                  Next
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.container -->
+
+                  <div id="push"></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="tab_footer"><b>Note:</b> afdter effect</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      function bootstrapTabControl() {
+        var i,
+          items = $(".nav-link"),
+          pane = $(".tab-pane");
+        // next
+        $(".nexttab").on("click", function () {
+          for (i = 0; i < items.length; i++) {
+            if ($(items[i]).hasClass("active") == true) {
+              break;
+            }
+          }
+          if (i < items.length - 1) {
+            // for tab
+            $(items[i]).removeClass("active");
+            $(items[i + 1]).addClass("active");
+            // for pane
+            $(pane[i]).removeClass("show active");
+            $(pane[i + 1]).addClass("show active");
+          }
+        });
+        // Prev
+        $(".prevtab").on("click", function () {
+          for (i = 0; i < items.length; i++) {
+            if ($(items[i]).hasClass("active") == true) {
+              break;
+            }
+          }
+          if (i != 0) {
+            // for tab
+            $(items[i]).removeClass("active");
+            $(items[i - 1]).addClass("active");
+            // for pane
+            $(pane[i]).removeClass("show active");
+            $(pane[i - 1]).addClass("show active");
+          }
+        });
+      }
+      bootstrapTabControl();
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".divs div").each(function (e) {
+          if (e != 0) $(this).hide();
+        });
+
+        $(".next").click(function () {
+          if ($(".divs div:visible").next().length != 0)
+            $(".divs div:visible").next().show().prev().hide();
+          else {
+            $(".divs div:visible").hide();
+            $(".divs div:first").show();
+          }
+          return false;
+        });
+
+        $(".prev").click(function () {
+          if ($(".divs div:visible").prev().length != 0)
+            $(".divs div:visible").prev().show().next().hide();
+          else {
+            $(".divs div:visible").hide();
+            $(".divs div:last").show();
+          }
+          return false;
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".divss div").each(function (e) {
+          if (e != 0) $(this).hide();
+        });
+
+        $(".next").click(function () {
+          if ($(".divss div:visible").next().length != 0)
+            $(".divss div:visible").next().show().prev().hide();
+          else {
+            $(".divss div:visible").hide();
+            $(".divss div:first").show();
+          }
+          return false;
+        });
+
+        $(".prev").click(function () {
+          if ($(".divss div:visible").prev().length != 0)
+            $(".divss div:visible").prev().show().next().hide();
+          else {
+            $(".divss div:visible").hide();
+            $(".divss div:last").show();
+          }
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>
