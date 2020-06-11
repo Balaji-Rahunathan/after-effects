@@ -224,7 +224,7 @@ h6 {
 }
 #navbarTogglerDemo02{
   z-index:999999;
-  position: absolute;
+  position: static;
   top:100px;
   left:0;
   width:100%;
@@ -311,6 +311,19 @@ h6 {
   .after-text p {
     margin-left: 15px;
   }
+  #navbarTogglerDemo02{
+    z-index:999999;
+    position: absolute !important;
+    top:100px;
+    left:0;
+    width:100%;
+    background-color: white;
+  }
+  #logo-img {
+    width: 120px;
+    height: auto;
+    /* max-width: 140px; */
+  }
 }
 @media (min-width: 371px) and (max-width: 576px) {
   .after-list {
@@ -319,10 +332,26 @@ h6 {
   .after-text p {
     margin-left: 15px;
   }
+  #navbarTogglerDemo02{
+    z-index:999999;
+    position: absolute !important;
+    top:100px;
+    left:0;
+    width:100%;
+    background-color: white;
+  }
 }
 @media (min-width: 577px) and (max-width: 767px) {
   .after-list {
     width: 80%;
+  }
+  #navbarTogglerDemo02{
+    z-index:999999;
+    position: absolute !important;
+    top:100px;
+    left:0;
+    width:100%;
+    background-color: white;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -331,6 +360,14 @@ h6 {
   }
   .after-text p {
     margin-right: 10%;
+  }
+  #navbarTogglerDemo02{
+    z-index:999999;
+    position: absolute !important;
+    top:100px;
+    left:0;
+    width:100%;
+    background-color: white;
   }
 }
 
