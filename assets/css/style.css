@@ -23,10 +23,11 @@ h6 {
 
 .main_bg {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: auto;
   background: url(../img/bg.svg);
 
+  background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -179,6 +180,9 @@ h6 {
 @media only screen and (max-width: 900px) {
   .tab_vis {
     display: none;
+  }
+  .main_bg {
+    overflow: hidden;
   }
 }
 
