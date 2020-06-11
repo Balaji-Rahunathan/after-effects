@@ -186,7 +186,7 @@ h6 {
     height: 100vh;
     overflow: hidden;
     background: url(../img/bg.svg);
-
+    background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
