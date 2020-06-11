@@ -216,6 +216,10 @@ h6 {
   padding-bottom: 0px !important;
 }
 
+.span_w {
+  min-height: calc(100vh - 100px);
+}
+
 /*********header starts here************/
 #logo-img {
   width: 100%;
@@ -240,13 +244,10 @@ h6 {
   background-position: center center;
   background-size: cover;
   position: relative;
-  width: 100%;
-  height: 100vh;
 }
 #home-img {
   width: 100%;
   height: auto;
-  max-width: 500px;
 }
 .homepage-container h1 {
   color: #24285f;
