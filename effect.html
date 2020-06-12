@@ -236,7 +236,7 @@
                                     <button class="btn btn btn-success prevtab">
                                       Prev
                                     </button>
-                                    <button class="btn btn-primary next">
+                                    <button class="btn btn-primary next_sec">
                                       Next
                                     </button>
                                   </section>
@@ -256,10 +256,12 @@
                                     Almost All patients
                                   </p>
                                   <section class="my-auto tab_btn">
-                                    <button class="btn btn btn-success prev">
+                                    <button
+                                      class="btn btn btn-success prev_sec"
+                                    >
                                       Prev
                                     </button>
-                                    <button class="btn btn-primary next">
+                                    <button class="btn btn-primary next_sec">
                                       Next
                                     </button>
                                   </section>
@@ -279,10 +281,12 @@
                                     Almost All patients
                                   </p>
                                   <section class="my-auto tab_btn">
-                                    <button class="btn btn btn-success prev">
+                                    <button
+                                      class="btn btn btn-success prev_sec"
+                                    >
                                       Prev
                                     </button>
-                                    <button class="btn btn-primary next">
+                                    <button class="btn btn-primary next_sec">
                                       Next
                                     </button>
                                   </section>
@@ -302,10 +306,12 @@
                                     Almost All patients
                                   </p>
                                   <section class="my-auto tab_btn">
-                                    <button class="btn btn btn-success prev">
+                                    <button
+                                      class="btn btn btn-success prev_sec"
+                                    >
                                       Prev
                                     </button>
-                                    <button class="btn btn-primary next">
+                                    <button class="btn btn-primary next_sec">
                                       Next
                                     </button>
                                   </section>
@@ -325,7 +331,9 @@
                                     Almost All patients
                                   </p>
                                   <section class="my-auto tab_btn">
-                                    <button class="btn btn btn-success prev">
+                                    <button
+                                      class="btn btn btn-success prev_sec"
+                                    >
                                       Prev
                                     </button>
                                     <button class="btn btn-primary nexttab">
@@ -363,7 +371,7 @@
                                     <button class="btn btn btn-success prevtab">
                                       Prev
                                     </button>
-                                    <button class="btn btn-primary next">
+                                    <button class="btn btn-primary next_third">
                                       Next
                                     </button>
                                   </section>
@@ -387,7 +395,9 @@
                                     Almost All patients
                                   </p>
                                   <section class="my-auto tab_btn">
-                                    <button class="btn btn btn-success prev">
+                                    <button
+                                      class="btn btn btn-success prev_third"
+                                    >
                                       Prev
                                     </button>
                                   </section>
@@ -496,39 +506,11 @@
 
     <script>
       $(document).ready(function () {
-        $(".divss div").each(function (e) {
-          if (e != 0) $(this).hide();
-        });
-
-        $(".next").click(function () {
-          if ($(".divss div:visible").next().length != 0)
-            $(".divss div:visible").next().show().prev().hide();
-          else {
-            $(".divss div:visible").hide();
-            $(".divss div:first").show();
-          }
-          return false;
-        });
-
-        $(".prev").click(function () {
-          if ($(".divss div:visible").prev().length != 0)
-            $(".divss div:visible").prev().show().next().hide();
-          else {
-            $(".divss div:visible").hide();
-            $(".divss div:last").show();
-          }
-          return false;
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function () {
         $(".div_e  div").each(function (e) {
           if (e != 0) $(this).hide();
         });
 
-        $(".next").click(function () {
+        $(".next_sec").click(function () {
           if ($(".div_e div:visible").next().length != 0)
             $(".div_e div:visible").next().show().prev().hide();
           else {
@@ -538,7 +520,7 @@
           return false;
         });
 
-        $(".prev").click(function () {
+        $(".prev_sec").click(function () {
           if ($(".div_e div:visible").prev().length != 0)
             $(".div_e div:visible").prev().show().next().hide();
           else {
@@ -556,7 +538,7 @@
           if (e != 0) $(this).hide();
         });
 
-        $(".next").click(function () {
+        $(".next_third").click(function () {
           if ($(".div_s div:visible").next().length != 0)
             $(".div_s div:visible").next().show().prev().hide();
           else {
@@ -566,7 +548,7 @@
           return false;
         });
 
-        $(".prev").click(function () {
+        $(".prev_third").click(function () {
           if ($(".div_s div:visible").prev().length != 0)
             $(".div_s div:visible").prev().show().next().hide();
           else {
