@@ -59,7 +59,7 @@ h6 {
 }
 
 .tab_head {
-  line-height: 1.6;
+  line-height: 1.2;
   color: #2967ae;
   font-size: 24px;
   text-align: center;
@@ -344,19 +344,13 @@ h6 {
   }
 }
 @media only screen and (max-width: 600px) {
-  .iner_main {
-    padding-top: 5%;
-  }
-  .tab-content {
-    padding-top: 5%;
-  }
   .tab_img {
-    margin-top: 10% !important;
-    margin-bottom: 10% !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
   }
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 65vh;
+    min-height: 70vh;
   }
 
   .tab_btn button {
@@ -372,4 +366,8 @@ h6 {
 
 .card {
   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.mb-b {
+  padding-bottom: 1.5%;
 }
