@@ -271,7 +271,7 @@ h6 {
   width: 1em;
   vertical-align: middle;
   line-height: 20px;
-  margin-left: -1.5em;
+  margin-left: -1.2em;
 }
 .cont_list ul li {
   margin-bottom: 0rem;
@@ -348,14 +348,14 @@ h6 {
   .tab_head {
     line-height: 1.5;
     color: #2967ae;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     font-weight: bold;
   }
   .con_par {
     line-height: 1.8;
     color: #464646;
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
     margin-bottom: 0;
   }
@@ -363,7 +363,7 @@ h6 {
   .con_par {
     line-height: 1.8;
     color: #464646;
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
     margin-bottom: 0;
   }
