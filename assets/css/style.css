@@ -43,7 +43,6 @@ h6 {
 .main_bg {
   position: relative;
   overflow: hidden;
-
   background-image: url("../img/bg.svg");
   background-repeat: no-repeat;
   background-position: center center;
