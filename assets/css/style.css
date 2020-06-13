@@ -409,7 +409,7 @@ h6 {
 @media only screen and (max-width: 1500px) {
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 65vh;
+    min-height: 70vh;
   }
   .tab_img {
     height: 400px;
@@ -419,7 +419,7 @@ h6 {
 @media only screen and (max-width: 1200px) {
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 60vh;
+    min-height: 70vh;
   }
   .tab_img {
     height: auto;
@@ -429,7 +429,7 @@ h6 {
 @media only screen and (max-width: 900px) {
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 50vh;
+    min-height: 60vh;
   }
   .tab_img {
     height: auto;
@@ -439,7 +439,7 @@ h6 {
 @media only screen and (max-width: 600px) {
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 73vh;
+    min-height: 80vh;
   }
   .tab_img {
     height: auto;
