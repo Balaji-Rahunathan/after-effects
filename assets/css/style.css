@@ -453,7 +453,7 @@ h6 {
 @media only screen and (max-width: 1200px) {
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 55vh;
+    min-height: 50vh;
   }
   .tab_img {
     height: 400px;
@@ -463,10 +463,10 @@ h6 {
 @media only screen and (max-width: 900px) {
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 50vh;
+    min-height: 48vh;
   }
   .tab_img {
-    height: auto;
+    height: 400px;
   }
 }
 
