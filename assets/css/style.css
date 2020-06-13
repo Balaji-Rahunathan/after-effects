@@ -419,7 +419,7 @@ h6 {
 @media only screen and (max-width: 1200px) {
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 70vh;
+    min-height: 60vh;
   }
   .tab_img {
     height: auto;
