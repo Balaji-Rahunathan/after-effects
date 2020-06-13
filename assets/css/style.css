@@ -133,7 +133,7 @@ h6 {
 .main_bg {
   position: relative;
   overflow: hidden;
-
+  min-height: 100vh;
   background-image: url("../img/bg.svg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -271,7 +271,7 @@ h6 {
 
 .tab_inner_main {
   box-sizing: border-box;
-  min-height: 60vh;
+  min-height: 50vh;
 }
 .tab_subhead {
   line-height: 1.2;
@@ -460,7 +460,7 @@ h6 {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .tab_inner_main {
     box-sizing: border-box;
     min-height: 50vh;
