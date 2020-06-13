@@ -442,7 +442,7 @@ h6 {
     border: 0rem;
   }
   .shadow {
-    box-shadow: none;
+    box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0) !important;
   }
   .main_bg {
     position: relative;
@@ -458,7 +458,7 @@ h6 {
   }
 
   .padding_pad {
-    padding: 0;
+    padding: 0px;
   }
 
   .imp_btn_left {
