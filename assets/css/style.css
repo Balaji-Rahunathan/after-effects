@@ -464,8 +464,8 @@ h6 {
 
   .imp_btn_left {
     position: absolute !important;
-    top: 70% !important;
-    left: -15px !important;
+    top: 50% !important;
+    left: -10px !important;
     background-color: inherit !important;
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -483,9 +483,9 @@ h6 {
 
   .imp_btn_right {
     position: absolute !important;
-    top: 70% !important;
+    top: 50% !important;
 
-    right: -15px !important;
+    right: -10px !important;
 
     background-color: inherit !important;
     margin-left: 0px !important;
@@ -556,10 +556,10 @@ h6 {
 @media only screen and (max-width: 600px) {
   .tab_inner_main {
     box-sizing: border-box;
-    min-height: 65vh;
+    min-height: 60vh;
   }
   .tab_img {
-    height: 250px;
+    height: 200px;
   }
 }
 
