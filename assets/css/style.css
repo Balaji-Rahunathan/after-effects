@@ -449,12 +449,13 @@ h6 {
     overflow: hidden;
     min-height: 100vh;
 
-    background-image: url(../img/bg.svg);
+    background-image: url(../img/Phone_BG.svg);
+
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center center;
     background-attachment: scroll;
     background-color: #e8f4ff;
-    background-size: contain;
+    background-size: cover;
   }
 
   .padding_pad {
