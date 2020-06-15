@@ -245,12 +245,12 @@ h6 {
 .na_3 .nav-item.open .nav-link,
 .na_3 .nav-item.open .nav-link:focus,
 .na_3 .nav-item.open .nav-link:hover {
-  border-bottom: 4px solid #f39150;
-  background-color: #f39150 !important;
+  border-bottom: 4px solid #fa5100;
+  background-color: #fa5100 !important;
   color: #fff;
 }
 .na_3 {
-  border-bottom: #f39150 4px solid;
+  border-bottom: #fa5100 4px solid;
 }
 
 .na_4 .nav-link .active,
@@ -463,7 +463,7 @@ h6 {
 
   .imp_btn_left {
     position: absolute !important;
-    top: 50% !important;
+    top: 80% !important;
     left: -20px !important;
     background-color: inherit !important;
     margin-left: 0px !important;
@@ -482,7 +482,7 @@ h6 {
 
   .imp_btn_right {
     position: absolute !important;
-    top: 50% !important;
+    top: 80% !important;
 
     right: -20px !important;
 
