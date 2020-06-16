@@ -602,3 +602,65 @@ h6 {
 .mt-5-s {
   margin-top: 3rem;
 }
+.slide{
+  animation-name:example;
+  animation-duration:1.5s;
+  position: relative;
+}
+
+@keyframes example{
+0%{
+  bottom:1500px;
+  opacity:0
+};
+50%{
+  bottom:700px;
+  opacity:0.5
+}
+100%{
+bottom:0px;
+opacity:1
+}
+}
+.anime{
+  animation-name:eg1;
+  transition-delay: 3s;
+  animation-duration:2s;
+  position: relative;
+
+}
+@keyframes eg1{
+  0%{
+    right:1500px;
+    opacity:0
+  };
+  50%{
+    right:700px;
+    opacity:0.5
+  }
+  100%{
+  right:0px;
+  opacity:1
+  }
+  }
+  .anime2{
+    animation-name:eg2;
+    transition-delay: 3s;
+    animation-duration:2s;
+    position: relative;
+  
+  }
+  @keyframes eg2{
+    0%{
+      left:1500px;
+      opacity:0
+    };
+    50%{
+      left:700px;
+      opacity:0.5
+    }
+    100%{
+    left:0px;
+    opacity:1
+    }
+    }
